@@ -34,3 +34,4 @@ C:\Users\engim\Desktop\back\etteremdoga\etterem\etterem\obj\Debug\net10.0\refint
 C:\Users\engim\Desktop\back\etteremdoga\etterem\etterem\obj\Debug\net10.0\etterem.pdb
 C:\Users\engim\Desktop\back\etteremdoga\etterem\etterem\obj\Debug\net10.0\etterem.genruntimeconfig.cache
 C:\Users\engim\Desktop\back\etteremdoga\etterem\etterem\obj\Debug\net10.0\ref\etterem.dll
+C:\Users\engim\Desktop\back\etteremdoga\etterem\etterem\obj\Debug\net10.0\etterem.sourcelink.json

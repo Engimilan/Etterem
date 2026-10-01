@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("etterem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bbac62fc465f68d666c687c6a1b94d1a7bed279")]
 [assembly: System.Reflection.AssemblyProductAttribute("etterem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("etterem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

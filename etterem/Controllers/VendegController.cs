@@ -9,9 +9,29 @@ namespace etterem.Controllers
     public class VendegController : Controller
     {
         public string ConnectionString = "server=localhost;database=etterem;uid=root;password=";
-       
 
-        
+        [HttpGet("nameemail")]
+        public object GetNameEmail(int id)
+        {
+            var connector = new MySqlConnection(ConnectionString);
+            connector.Open();
+
+            string sql = @"SELECT name, email FROM vendeg WHERE `id` = @id";
+            var command = new MySqlCommand(sql, connector);
+            command.Parameters.AddWithValue("@id", id);
+
+            MySqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                return new { Name = reader["name"], Email = reader["email"] };
+            }
+            else
+            {
+                return new { message = "Nincs ilyen vendég" };
+            }
+        }
+
+
 
         [HttpGet("rendelescount")]
         public object GetOrdercount()
@@ -43,7 +63,7 @@ namespace etterem.Controllers
 
             connector.Close();
 
-            return new { Vendegekid = id, Rendelesekszama = szamol };
+            return new { VendegId = id, Rendelesekszama = szamol };
         }
 
 
