@@ -1,0 +1,6 @@
+@etterem_HostAddress = http://localhost:5286
+
+GET {{etterem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

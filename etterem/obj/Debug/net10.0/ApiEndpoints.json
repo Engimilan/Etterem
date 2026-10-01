@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "etterem.Controllers.RendelesController",
+    "Method": "GetrendelesById",
+    "RelativePath": "rendeles/byId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.RendelesController",
+    "Method": "DeleteBlogger",
+    "RelativePath": "rendeles/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.RendelesController",
+    "Method": "GetAllRendeles",
+    "RelativePath": "rendeles/listall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.RendelesController",
+    "Method": "AddNewOrder",
+    "RelativePath": "rendeles/neworder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "neworder",
+        "Type": "etterem.models.DTOs.NewOrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.RendelesController",
+    "Method": "UpdateRendeles",
+    "RelativePath": "rendeles/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderupdate",
+        "Type": "etterem.models.DTOs.OrderUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.VendegController",
+    "Method": "GetNameorder",
+    "RelativePath": "vendeg/namerendeles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "etterem.Controllers.VendegController",
+    "Method": "GetOrdercount",
+    "RelativePath": "vendeg/rendelescount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
